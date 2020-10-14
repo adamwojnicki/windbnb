@@ -1,0 +1,24 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0;
+  &__brand-logo {
+    max-width: 250px;
+    img {
+      width: 100%;
+    }
+  }
+  &__filters {
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    input,
+    button {
+      padding: 1.6rem 1.9rem;
+    }
+    input {
+      border-right: 1px solid #f2f2f2;
+    }
+  }
+}
