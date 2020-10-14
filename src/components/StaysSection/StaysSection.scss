@@ -14,3 +14,8 @@
     font-size: 1.4rem;
   }
 }
+
+.stays-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
