@@ -1,4 +1,5 @@
 import React from "react";
+import "./StayCard.scss";
 
 export default ({ stay }) => {
   return (
