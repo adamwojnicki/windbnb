@@ -13,7 +13,9 @@ export default ({ stay }) => {
         ) : (
           ""
         )}
-        <span className="stay-card__beds">{stay.beds}</span>
+        <span className="stay-card__beds">
+          {stay.type} &bull; {stay.beds} beds
+        </span>
         <span className="stay-card__rating">{stay.rating}</span>
       </div>
       <h4 className="stay-card__title">{stay.title}</h4>
